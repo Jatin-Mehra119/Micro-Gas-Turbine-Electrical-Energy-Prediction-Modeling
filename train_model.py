@@ -23,7 +23,7 @@ logging.basicConfig(
 # Load data
 
 # Get the path of the training data
-path = input(str("Enter the path of the training data: ")) # path = "data/train"
+path = "data/train"
 path = pathlib.Path(path)
 file_paths_train = []
 # iterate through the files in the path
@@ -34,7 +34,7 @@ for file in os.listdir(path):
 #-------------------------------------------------------------------------------------------------------#
 
 # Get the path of the test data
-path = input(str("Enter the path of the test data: ")) # path = "data/test"
+path = "data/test"
 path = pathlib.Path(path)
 file_paths_test = []
 # iterate through the files in the path
