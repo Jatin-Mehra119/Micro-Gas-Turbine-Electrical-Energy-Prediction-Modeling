@@ -3,3 +3,4 @@ nb.ipynb
 training_log.log
 plots/
 models/
+src/__pycache__/
