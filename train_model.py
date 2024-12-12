@@ -93,29 +93,6 @@ input_shape = (train_X[0].shape)
 
 # Create and train the model
 
-# Custom loss function and metric
-loss_fn_params = {
-    'theta': 0.001, 
-    'steepness': 0.5, 
-    'tgds_ratio': 0.01, 
-    'tolerance': 0.1
-}
-
-loss_metric_params = {
-    'theta': 1000, 
-    'steepness': 0.1, 
-    'tgds_ratio': 0.6, 
-    'tolerance': 0
-}
-
-
-# log the loss function and metric
-logging.info(f"Loss Function: {loss_fn_params}")
-logging.info(f"Loss Metric: {loss_metric_params}")
-
-# log the loss function and metric
-logging.info(f"Loss Function: {loss_fn_params}")
-logging.info(f"Loss Metric: {loss_metric_params}")
 # Assign the default parameters for the model
 
 params = {
