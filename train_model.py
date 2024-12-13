@@ -181,6 +181,7 @@ logging.info(f"MSE: {mse}")
 logging.info(f"MAE: {mae}")
 logging.info(f"RMSE: {np.sqrt(mse)}")
 
+# Print the evaluation metrics
 print("MSE:", mse)
 print("MAE:", mae)
 print("RMSE:", np.sqrt(mse))

@@ -3,6 +3,15 @@ import numpy as np
 
 
 def plot_history(history):
+    """
+    Plots the training and validation loss and mean absolute error (MAE) over epochs.
+
+    Parameters:
+    ----------
+    history : History
+        A History object returned by the fit method of a Keras model. It contains the training and validation loss and MAE values over epochs.
+    """
+    plt.figure(figsize=(10, 5))
     plt.figure(figsize=(10, 5))
 
     # Plot training & validation loss values
