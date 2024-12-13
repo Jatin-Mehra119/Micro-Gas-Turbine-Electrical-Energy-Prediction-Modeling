@@ -4,3 +4,4 @@ training_log.log
 plots/
 models/
 src/__pycache__/
+catboost_info/
